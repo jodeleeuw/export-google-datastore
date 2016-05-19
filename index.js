@@ -4,7 +4,7 @@ var fs = require('fs');
 var jsonfile = require('jsonfile');
 var json2csv = require('json2csv');
 
-// useage
+// usage
 // node export-google-datastore -k keyfile -p project -f format -d datakind -o outfile
 
 var keyfile = argv.k;
